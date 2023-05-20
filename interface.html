@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url("bg_8.png");
+            background-size: cover;
+            background-position: center;
+            background-color: black;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: transparent;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           /* backdrop-filter: blur(10px);  Add the blur effect */
+        }
+
+        #logo {
+            display: flex;
+            align-items: center;
+        }
+
+        #logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        #logo .caption {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #menu {
+            display: flex;
+        }
+
+        #menu a {
+            margin-right: 20px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        #content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        #content h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+        }
+
+        #content p {
+            font-size: 24px;
+            margin-bottom: 40px;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+        }
+
+        #footer {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 600px) {
+            /* Adjustments for mobile devices */
+            #header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #menu {
+                margin-top: 20px;
+            }
+
+            #content h1 {
+                font-size: 36px;
+            }
+
+            #content p {
+                font-size: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            /* Adjustments for tablet devices */
+            #content h1 {
+                font-size: 40px;
+            }
+
+            #content p {
+                font-size: 22px;
+            }
+        }
+
+        @media only screen and (max-width: 1200px) {
+            /* Adjustments for smaller desktop screens */
+            #content h1 {
+                font-size: 44px;
+            }
+
+            #content p {
+                font-size: 26px;
+            }
+        }
+    </style>
+    <script>
+        // JavaScript code
+    </script>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="KC_LOGO-1.png" alt="Logo">
+            <div class="caption">KCIET</div>
+        </div>
+        <div id="menu">
+            <a href="#">Home</a>
+            <a href="#">Ideas</a>
+            <a href="#">LOGIN</a>
+            <a href="#">PROFILE</a>
+        </div>
+    </div>
+
+    <div id="content">
+        <h1><b style="font-size:50px">WELCOME</b><br>in<br><b style="font-size:100px">OpenS</b><br>KCIET</h1>
+        <p></p>
+        <a href="#" style="color: #ffffff; background-color: #ff6600; padding: 10px 20px; border-radius: 5px; font-size: 20px; text-decoration: none;">Get Started</a>
+    </div>
+
+    <div id="footer">
+        Developed By <b style="font-size:15px; color:green">ILLUMINATI</b> Team.
+    </div>
+</body>
+</html>
